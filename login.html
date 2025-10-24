@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-{% load static %}
+<!--{% load static %}-->
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Umbrella AuthForm</title>
-	<link rel="stylesheet" href="{% static 'style.css' %}">
+	<link rel="stylesheet" href="static/style.css">
 </head>
 <body>
     <div class="container">
@@ -21,14 +21,14 @@
                 <div class="form-container">
                     <div class="logo-corner"></div>
                     
-                    {% if form.errors %}
+                    <!--{% if form.errors %}-->
                     <div class="error-message">
                         Неверные учетные данные. Пожалуйста, попробуйте снова.
                     </div>
-                    {% endif %}
+                    <!--{% endif %}-->
                     
                     <form method="post">
-                        {% csrf_token %}
+                        <!--{% csrf_token %}-->
                         
                         <div class="form-row">
                             <div class="label">USER</div>
@@ -65,14 +65,14 @@
             <div class="form-container">
                 <div class="logo-corner"></div>
                 
-                {% if form.errors %}
+                <!--{% if form.errors %}-->
                 <div class="error-message">
                     Неверные учетные данные. Пожалуйста, попробуйте снова.
                 </div>
-                {% endif %}
+                <!--{% endif %}-->
                 
                 <form method="post">
-                    {% csrf_token %}
+                    <!--{% csrf_token %}-->
                     
                     <div class="form-row">
                         <div class="label">USER</div>
