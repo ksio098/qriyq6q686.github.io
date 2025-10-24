@@ -298,4 +298,11 @@ body {
 	.form-block {
 		width: 90%;
 	}
+
+}
+
+@media (max-height: 700px) {
+    .right-section {
+        height: 45vh;
+    }
 }
