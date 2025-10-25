@@ -229,7 +229,7 @@ body {
 	.container {
 		flex-direction: column;
 		justify-content: center;
-		height: 100vh;
+		height: 100%;
 	}
 
 	.left-section,
@@ -240,7 +240,7 @@ body {
 	
 	.right-section {
 		flex: none;
-		height: 35vh;
+		height: 30%;
 	}
 
 	.left-section .image-block {
@@ -310,7 +310,8 @@ body {
 
 @media (max-height: 700px) {
     .right-section {
-        height: 45vh;
+        height: 30%;
     }
 }
+
 
