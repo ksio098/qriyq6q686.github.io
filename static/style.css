@@ -21,6 +21,10 @@ body {
 	background-color: black;
 }
 
+form {
+	position: relative;
+}
+
 .fullscreen {
 	height: 100dvh;
 	height: calc(var(--vh, 1vh) * 100);
@@ -298,7 +302,7 @@ body {
 	}
 
 	.icon-corner {
-		bottom: 10px;
+		top: 10px;
 		right: 0px;
 		width: 60px;
 		height: 60px;
@@ -322,6 +326,7 @@ body {
         height: 37%;
     }
 }
+
 
 
 
